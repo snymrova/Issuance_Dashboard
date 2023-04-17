@@ -21,7 +21,7 @@ export default function Layout({children}) {
       <main className="main py-5 px-5 md:px-20 ml-auto mr-auto  md:max-w-[75rem]">
         <DrawerLayout/>
 
-          <Routes \>
+          <Routes>
               <Route exact path='/' element={<Assumptions/>}/>
               <Route path='/Emissions' element={<Emissions/>}/>
               <Route path='/Apy' element={<Apr/>}/>
